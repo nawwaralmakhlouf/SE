@@ -7,6 +7,8 @@ import 'package:learnjava/data/model/response/config_model.dart';
 import 'package:learnjava/data/model/response/user_info_model.dart';
 import 'package:learnjava/data/model/response/user_score_model.dart';
 import 'package:learnjava/providers/profile_provider.dart';
+import 'package:learnjava/screens/base_widgets/custom_app_bar.dart';
+import 'package:learnjava/screens/base_widgets/drawer/Drawer.dart';
 import 'package:provider/provider.dart';
 
 import '../../../../localization/language_constrants.dart';
@@ -18,10 +20,7 @@ import '../../data/model/body/register_model.dart';
 import '../../providers/auth_provider.dart';
 import '../../providers/splash_provider.dart';
 import '../../utill/images.dart';
-import '../base_widgets/customTextFieldContainer.dart';
-import '../base_widgets/custom_app_bar.dart';
-import '../base_widgets/drawer/Drawer.dart';
-import '../base_widgets/passwordHideShowButton.dart';
+
 
 class UsersscorePage extends StatefulWidget {
   const UsersscorePage({super.key});

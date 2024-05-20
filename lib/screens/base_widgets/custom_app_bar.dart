@@ -4,7 +4,7 @@ import 'package:flutter/widgets.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:learnjava/providers/profile_provider.dart';
 import 'package:learnjava/screens/auth/update_profile_page.dart';
-import 'package:learnjava/screens/scores/users_scores_page.dart';
+import 'package:learnjava/screens/users_scores_page.dart';
 import 'package:learnjava/utill/custom_themes.dart';
 import 'package:provider/provider.dart';
 import '../../../utill/color_resources.dart';
